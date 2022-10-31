@@ -1,0 +1,5 @@
+<h1> Gossip Project </h1>
+<% @gossip.each do |e|%>
+  <p>Title : <%=e.title %></p>
+  <p>Nom : <%=e.user.first_name %></p>
+<% end %>  
